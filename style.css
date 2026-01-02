@@ -202,3 +202,28 @@ footer {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.55);
 }
+
+@media (max-width: 1280px) {
+    body {
+        min-width: 375px;
+        width: 100%;
+    }
+
+    nav {
+        width: calc(100% - 128px);
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    #navigation-logo {
+        margin-bottom: 16px;
+    }
+
+    #navigation-list ul {
+        padding-left: 0px;
+    }
+}
